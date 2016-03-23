@@ -1,0 +1,3 @@
+default domain_19115_1 ftp://192.168.191.15:55/ftp local.master,slave.slave_129 N/A
+default domain_19115_2 http://192.168.191.15:505/http local.master,slave.slave_129 N/A
+default domain_19115_3 https://192.168.191.15:5050/https local.master,slave.slave_129 N/A

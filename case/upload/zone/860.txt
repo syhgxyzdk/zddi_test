@@ -1,0 +1,8 @@
+﻿zone.860.	3600	IN	SOA	ns.zone.860. mail.zone.860. 7 28800 3600 604800 1800
+zone.860.	3600	IN	NS	ns.zone.860.
+ns.zone.860.	3600	IN	A	192.168.8.60
+aaaa.zone.860.	3600	IN	AAAA	FF::8600
+mx.zone.860.	3600	IN	MX	8 mx.mail.com.
+cname.zone.860.	3600	IN	CNAME	cname.860.com.
+dname.zone.860.	3600	IN	DNAME	dname.zone.860.
+txt.zone.860.	3600	IN	TXT	"txt.zone.860"

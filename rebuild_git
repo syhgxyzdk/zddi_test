@@ -1,0 +1,11 @@
+#!/usr/local/bin/ruby
+branches = `git branch -r`.split("\n").map do |branch|
+                branch.include?("master") ? "master" : branch.gsub("origin/", "")
+            end
+branches.each do |branch|
+    `git checkout #{branch}`
+end
+
+`git push --all origin --force `
+
+    

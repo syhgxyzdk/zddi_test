@@ -1,0 +1,3 @@
+xn--url-u68d11xn5ecy4abj8d1vk domain_1 ftp://192.168.192.55:55/ftp local.master,slave.slave_129 N/A
+xn--url-u68d11xn5ecy4abj8d1vk domain_2 http://192.168.192.55:505/http local.master,slave.slave_129 N/A
+xn--url-u68d11xn5ecy4abj8d1vk domain_3 https://192.168.192.55:5050/https local.master,slave.slave_129 N/A

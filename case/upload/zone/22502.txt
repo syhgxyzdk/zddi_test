@@ -1,0 +1,18 @@
+﻿2s师	3600	IN	NS	2ns.shi.
+师2s	3600	IN	NS	2ns.shi.
+2s师	3600	IN	A	192.168.225.2
+师2s	3600	IN	A	192.168.225.2
+2s师	3600	IN	MX	2 mx.22502.
+师2s	3600	IN	MX	2 mx.22502.
+2s师	3600	IN	PTR	ptr.zone.22502.
+师2s	3600	IN	PTR	ptr.zone.22502.
+2s师	3600	IN	TXT	数字中英组合
+师2s	3600	IN	TXT	中英数字组合
+2s师	3600	IN	SRV	1 0 9 sysadmins-box.zdns.cn.
+师2s	3600	IN	SRV	1 0 9 sysadmins-box.zdns.cn.
+2s师	3600	IN	AAAA	192A:168B:22CD::502F
+师2s	3600	IN	AAAA	192A:168B:22CD::502F
+2s师	3600	IN	DNAME	dname.25502.
+师2s	3600	IN	DNAME	dname.22502.
+2s师	3600	IN	NAPTR	101 10 "u" "sip+E2U" "!^.*$!sip:userA@zdns.cn!" .
+师2s	3600	IN	NAPTR	101 10 "u" "sip+E2U" "!^.*$!sip:userA@zdns.cn!" .

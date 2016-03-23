@@ -1,0 +1,4 @@
+server 202.173.12.9
+zone zone.12838
+update add a.zone.12838 3600 IN A 192.168.128.38
+send

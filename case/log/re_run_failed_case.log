@@ -1,0 +1,37 @@
+------------------------------------------
+=>	Git Branch :	 AD_Re run failed case 
+------------------------------------------
+=>	Start Time :	2014-12-31 03:02:03
+=>	End Time   :	2014-12-31 03:35:37
+------------------------------------------
+=>	Master:	202.173.12.18
+=>	Slave :	202.173.12.9
+--------->   Re_run 23 Case(s)   <---------
+Total => 23
+Pass => 9
+Fail => 14
+39.13% Pass
+Pass_case_View_14544
+Pass_case_View_14548
+--> Fail_case_Zone_860
+--> Fail_case_Zone_13912
+--> Fail_case_Zone_13913
+--> Fail_case_Zone_13944
+--> Fail_case_Zone_13945
+--> Fail_case_Domain_8350
+--> Fail_case_Forward_14511
+--> Fail_case_Local_8381
+--> Fail_case_Local_14520
+Pass_case_Local_14521
+Pass_case_Cache_8016
+Pass_case_Cache_8017
+--> Fail_case_Cache_8022
+Pass_case_Cache_8018
+Pass_case_Cache_8014
+Pass_case_IP_10907
+--> Fail_case_IP_23706
+Pass_case_IP_12593
+--> Fail_case_Domain_24700
+--> Fail_case_Domain_23778
+--> Fail_case_Redirections_19111
+--------->  End of Results  <--------
