@@ -1,18 +1,21 @@
-本工程使用ruby&watir自动化框架构建web自动化UI测试.
-主要用来回归测试和服务稳定性测试.
+本工程使用ruby&watir自动化框架构建web自动化测试.
+主要用来回归用例, 也可以循环运行, 测试稳定性.
 
 watir库本身是selenium的再次封装.
-对chrome浏览器都是调用google的webdriver.
-同时还支持firefox和IE(需要iedriver).
+对chrome浏览器同selenium一样, 都是调用google的webdriver.
+同时还支持firefox和IE(需要iedriver), 甚至mac os上的safari.
+注意: watir不支持录制.
 
-非常完善的定位控件方法和开源学习文档.
-是黑盒自动化WebUI测试的首选!!!
+waitr有非常完善的控件定位方法和开源学习文档.
+加上autoit, 几乎可以操作web页面的任何元素!
+加上酷炫吊炸天的ruby语言, 简直是黑盒自动化WebUI测试的首选!!!
 
 
+######################################################################
 目录结构:
 1. case/case_suit
 每个suit_xxx.rb文件对应每个ZDDI功能模块.
-同时每个rb文件对应一个类, 类名下的每个方法对应的每个用例.
+同时每个rb文件对应一个类, 类名下的每个方法对应bugfree上每个用例.
 
 2. case/upload
 所有case中用到的测试数据, 如批量添加, nsupdate调用文件导入等. 
